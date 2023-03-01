@@ -1,0 +1,46 @@
+.sticky {
+	    margin: 8px 0px;
+	right: 0px;
+	z-index: 9999;
+	text-align: center;
+	background-color: #085DAD;
+	border-radius: 2px ;
+    border: 2px solid #fff; border-right: 0px
+
+  } 
+  .sticky-txt{
+	      top: 50%;
+    position: fixed;
+    z-index: 999999999;
+    right: 0;
+  }
+  .sticky:hover{background-color: #8CC739 ;}
+
+ #myHeader a#admission:hover div {
+	  color: #fff;
+    text-decoration: none;
+    outline: none;
+  }
+  #myHeader a#admission:hover, #myHeader a#admission:focus, #myHeader a#admission:active{text-decoration: none; outline: none}
+#myHeader a#admission div {
+   width: 190px;
+    letter-spacing: 0px;
+    height: 53px;
+    text-align: center;
+    margin-top: 10px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+  div#myHeader a#admission div div {
+  margin-top: -3px; font: .95em 'Open Sans',sans-serif; letter-spacing: 1.2px;
+  border: 0px; text-decoration: none
+  }
+  .counter:after {
+    font-family: 'FontAwesome';
+    content: "\f067";
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 100;
+}
